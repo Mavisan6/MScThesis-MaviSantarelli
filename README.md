@@ -1,2 +1,2 @@
-# A-GIS-Approach-to-Amphibian-Conservation-in-Urban-and-Peri-Urban-Areas-of-Central-Scotland
+# Strategic Planning for Blue-Green Infrastructure: A GIS Approach to Amphibian Conservation in Urban and Peri Urban Areas of Central Scotland
 This repository supports my MSc thesis, which evaluates amphibian habitat connectivity and Blue-Green Infrastructure (BGI) opportunities in Scotland. It utilizes GIS techniques and multidimensional trait analysis to enhance amphibian conservation, building on the integrated framework methodology from Donati et al. (2022).
