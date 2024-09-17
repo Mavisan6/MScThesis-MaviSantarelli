@@ -1,19 +1,43 @@
-# MSc Thesis: Strategic Planning for Blue-Green Infrastructure: A GIS Approach to Amphibian Conservation in Urban and Peri-Urban Areas of Central Scotland
+# MSc Thesis: Assessing Amphibian Habitat Connectivity and BGI Opportunities in Scotland
 
 ## Repository Overview
 
-This repository contains the following components:
+This repository contains the code, data, and documentation for my MSc thesis on assessing amphibian habitat connectivity and evaluating opportunities for Blue-Green Infrastructure (BGI) development in Scotland. The project employs GIS techniques and multidimensional trait analysis to enhance amphibian conservation.
 
-- **Jupyter Notebooks**: Detailed analysis and visualizations of amphibian habitat connectivity using species distribution models (SDMs), habitat suitability models, and ecological connectivity modeling.
-- **Python Scripts**: Implementation of methodologies including Scikit-learn for machine learning, MaxEnt for SDMs, and Circuitscape for ecological connectivity modeling.
-- **Data**: Datasets used for the analysis, including species trait information and environmental variables.
-- **Documentation**: Descriptions of the methodology, results, and interpretations.
+## Repository Structure
 
-## Key Features
+The repository is organized into the following main directories and files:
 
-- **Multidimensional Trait Analysis**: Analysis of six amphibian species (Common Toad, Palmate Newt, Smooth Newt, Common Frog, Great Crested Newt, and Alpine Newt) to evaluate habitat connectivity.
-- **Blue-Green Infrastructure Evaluation**: Identification of BGI opportunities to enhance amphibian corridors and connectivity.
-- **Transparency and Reproducibility**: All code and data are available for review and replication, following best practices for reproducible research.
+### `/data`
+- **`raw/`**: Contains raw, unprocessed data files used for the research.
+- **`processed/`**: Includes cleaned and processed data files, ready for analysis.
+- **`external/`**: Stores additional datasets and external data sources not originally part of the primary data.
+
+### `/notebooks`
+- **Jupyter Notebooks**: Contains notebooks for interactive data analysis, visualization, and documentation.
+  - `data_analysis_notebook.ipynb`: Notebook for analyzing and visualizing data.
+  - `model_evaluation_notebook.ipynb`: Notebook for evaluating and interpreting model results.
+
+### `/scripts`
+- **Python Scripts**: Scripts for data processing, model training, and results analysis.
+  - `data_preprocessing.py`: Script for cleaning and preparing data.
+  - `model_training.py`: Script for training models.
+  - `results_analysis.py`: Script for analyzing and interpreting results.
+
+### `/results`
+- **`figures/`**: Includes plots and figures generated from the analysis.
+- **`models/`**: Contains trained models and related files.
+- **`outputs/`**: Stores any additional output files generated during the research.
+
+### `/docs`
+- **Documentation**: Provides detailed descriptions of the methodology, results, and other relevant information.
+  - `methodology.md`: Description of the research methodology.
+  - `results_summary.md`: Summary of the research results.
+
+### Additional Files
+- **`environment.yml`**: Conda environment file for managing project dependencies and ensuring a consistent setup.
+- **`README.md`**: Project overview, setup instructions, and additional information.
+- **`.gitignore`**: Specifies files and directories to be ignored by Git.
 
 ## Getting Started
 
