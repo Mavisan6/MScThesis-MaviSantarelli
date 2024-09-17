@@ -15,8 +15,6 @@ dependencies:
   - fiona
   - pyproj
   - scikit-image
-  - maxent
-  - circuitscape
   - pip
   - pip:
     - shapely
