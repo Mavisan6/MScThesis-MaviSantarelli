@@ -4,6 +4,21 @@
 
 This repository contains the code, data, and documentation for my MSc thesis on assessing amphibian habitat connectivity and evaluating opportunities for Blue-Green Infrastructure (BGI) development in Scotland. The project employs GIS techniques and multidimensional trait analysis to enhance amphibian conservation.
 
+## Proposed Methodology
+
+This project follows the Integrated Modelling Framework proposed by [Donati et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0301479722008271?via%3Dihub) to assess amphibian habitat connectivity and evaluate Blue-Green Infrastructure (BGI) opportunities. The methodology involves:
+
+1. **Data Assembly**: Gathering amphibian species data and environmental predictors across Scotland.
+2. **Habitat Suitability Modelling**: Using species distribution models (SDMs) to identify biodiversity hotspots and their overlap with urban blue-green spaces.
+3. **Ecological Network Modelling**: Employing resistance maps and Circuitscape analysis to model landscape connectivity and identify ecological corridors and barriers.
+4. **Strategic BGI Planning**: Integrating results to propose targeted BGI interventions for enhancing amphibian connectivity.
+
+JupyterLab notebooks will be used to display and document the research process, including detailed methodology, data analysis, and visualizations. These notebooks are designed to ensure transparency and reproducibility, allowing users to review and understand the steps and results of the research.
+
+![Integrated Modelling Framework](docs/Integrated%20Modelling%20Framework.png) <!-- Replace with the path to your methodology image -->
+
+*Figure 1. Overview of the integrated assessment framework used for identifying BGI opportunities to support amphibian connectivity in human-dominated landscapes (from Donati et al., 2022). This framework combines species distribution models and circuit theory to evaluate habitat suitability, ecological networks, and potential BGI interventions.*
+
 ## Repository Structure
 
 The repository is organized into the following main directories and files:
