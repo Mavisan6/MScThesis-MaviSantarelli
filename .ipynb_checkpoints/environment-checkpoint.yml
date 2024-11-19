@@ -1,0 +1,26 @@
+name: MScThesis-MaviSantarelli
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - pygbif
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - geopandas
+  - rasterio
+  - fiona
+  - pyproj
+  - scikit-image
+  - pip
+  - pip:
+    - shapely
+    - joblib
+    - xgboost
+    - statsmodels
+    - pysal
+
