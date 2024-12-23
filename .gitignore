@@ -57,3 +57,5 @@ data/PseudoAbsences/Rana_temporaria_pseudo_absences.shx
 data/PseudoAbsences/Triturus_cristatus_pseudo_absences.dbf
 data/PseudoAbsences/Triturus_cristatus_pseudo_absences.shp
 data/PseudoAbsences/Triturus_cristatus_pseudo_absences.shx
+/data/Predictors
+/data/PseudoAbsences
