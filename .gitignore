@@ -59,3 +59,5 @@ data/PseudoAbsences/Triturus_cristatus_pseudo_absences.shp
 data/PseudoAbsences/Triturus_cristatus_pseudo_absences.shx
 /data/Predictors
 /data/PseudoAbsences
+notebooks/cropped_raster.tif
+notebooks/path_to_cropped_raster.tif
