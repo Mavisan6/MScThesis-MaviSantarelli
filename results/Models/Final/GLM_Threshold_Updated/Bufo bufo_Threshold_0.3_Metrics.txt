@@ -1,0 +1,3 @@
+Threshold: 0.3
+Ridge - Precision: 0.203, Recall: 0.941, F1: 0.334, ROC-AUC: 0.819
+Lasso - Precision: 0.202, Recall: 0.941, F1: 0.333, ROC-AUC: 0.820

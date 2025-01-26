@@ -1,0 +1,8 @@
+Test Metrics:
+AUC-ROC: 0.803
+Precision: 0.288
+Recall: 0.725
+F1 Score: 0.412
+Confusion Matrix:
+[[1236  423]
+ [  65  171]]
