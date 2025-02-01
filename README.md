@@ -136,6 +136,175 @@ To replicate the environment and ensure you have all the necessary dependencies,
    import statsmodels
    import pysal
 
+---
+
+## Guide: Running R within Python for MaxEnt Modelling
+
+### Introduction
+
+Species distribution modelling (SDM) often requires combining different statistical and machine learning approaches to achieve robust predictions. While many models (e.g., Generalized Linear Models [GLM], Generalized Additive Models [GAM], Random Forest [RF], and XGBoost) have Python-based implementations, MaxEnt (Maximum Entropy Modelling) is traditionally implemented in R or Java-based software.
+
+This guide outlines a step-by-step process to integrate R within Python using `rpy2`, allowing users to:
+
+✅ Run MaxEnt modelling within Python while keeping a unified workflow.  
+✅ Leverage R packages (e.g., `dismo`, `rJava`) without switching environments.  
+✅ Maintain compatibility with Python-based SDM models for ensemble modelling.  
+
+### Step 1: Install R
+
+**Why?**  
+Python does not natively support MaxEnt, but R’s `dismo` package provides an interface to the MaxEnt software.  
+Installing R ensures Python can communicate with it.
+
+**Instructions:**  
+1. Download and install **R (latest stable version)** from [CRAN](https://cran.r-project.org/).  
+Example: Download **R-4.4.2 for Windows (64-bit)**.
+
+2. Verify the installation by running in **Command Prompt** (Windows Terminal/Anaconda Prompt):
+
+```sh
+R --version
+```
+
+Expected output (example):
+```sh
+R version 4.4.2 (2024-10-31 ucrt) -- "Pile of Leaves"
+```
+
+### Step 2: Add R to System PATH
+
+**Why?**
+Adding R’s path ensures Python can locate and execute R commands using `rpy2`.
+
+**Instructions:**
+1. Open **System Environment Variables**:
+- **Windows**: Search `"Environment Variables"` in the Start Menu → Edit System Environment Variables.
+2. Locate the **PATH** variable and add the following directories (modify based on your R version):
+```sh
+C:\Program Files\R\R-4.4.2\bin
+C:\Program Files\R\R-4.4.2\bin\x64
+```
+3. Verify by restarting Command Prompt and running:
+```sh
+R --version
+```
+
+### Step 3: Install Required R Packages
+
+**Why?**
+- `dismo`: Provides an interface for MaxEnt.
+- `rJava`: Required for Java-based computations in MaxEnt.
+- `raster & sp`: Handle spatial data.
+
+**Instructions:**
+1. Open **Anaconda Prompt** (or Command Prompt if R is available).
+2. Start an **R session** by running:
+```sh
+R
+```
+3. Inside R, install the required packages:
+```R
+install.packages("dismo")
+install.packages("rJava")
+install.packages("raster")
+install.packages("sp")
+```
+4. When prompted, select a CRAN mirror (e.g., UK).
+
+### Step 4: Install Java and Set Up rJava
+
+**Why?**
+- `MaxEnt` requires Java to run models.
+- `rJava` connects R with Java, allowing R to execute Java-based computations.
+
+**Instructions:**
+1. Download and install the **Java Development Kit (JDK)** from [Oracle](https://www.oracle.com/java/technologies/downloads/?er=221886).
+- Recommended: **Windows x64 Installer** (`jdk-23_windows-x64_bin.exe`).
+2. Set `JAVA_HOME` environment variable:
+- In **Windows Environment Variables**, add:
+```sh
+JAVA_HOME = C:\Program Files\Java\jdk-23
+```
+3. Verify the installation:
+```sh
+java -version
+```
+Expected output (example):
+```sh
+java version "23.0.2" 2025-01-21
+```
+4. Open R again and test Java-R integration:
+```R
+library(rJava)
+.jinit()
+```
+
+### Step 5: Download and Set Up MaxEnt
+
+**Why?**
+- MaxEnt runs as a Java-based standalone application (`maxent.jar`).
+- R’s `dismo` package needs to locate maxent.jar to run MaxEnt models.
+
+**Instructions:**
+1. Download MaxEnt software from the [MaxEnt Website](https://biodiversityinformatics.amnh.org/open_source/maxent/).
+2. Extract the `maxent.jar` file into a new directory:
+```sh
+C:\maxent\maxent.jar
+```
+3. Verify in R that the file is found:
+```R
+jar <- "C:/maxent/maxent.jar"
+if (file.exists(jar)) {
+    print("MaxEnt.jar found!")
+} else {
+    print("Error: MaxEnt.jar not found!")
+}
+```
+Expected output:
+```R
+[1] "MaxEnt.jar found!"
+```
+
+### Step 6: Install and Configure `rpy2` in Python
+
+**Why?**
+- `rpy2` allows Python to **call R functions** directly within Jupyter Notebook.
+- This maintains a **single workflow** instead of switching between Python and R.
+
+**Instructions:**
+1. Install rpy2 in the Anaconda environment:
+```sh
+pip install rpy2
+```
+2. Verify installation in Python:
+```python
+import rpy2.robjects as ro
+print(ro.r("R.version"))
+```
+Expected output:
+```sh
+R version 4.4.2 (2024-10-31 ucrt)
+```
+
+### Final Verification & Running R in Jupyter Notebook
+
+1. **Restart the system** to apply changes.
+2. Open a **Jupyter Notebook** and verify R execution:
+```python
+import rpy2.robjects as ro
+print(ro.r("R.version"))
+```
+3. Check if **MaxEnt** is recognized:
+```python
+ro.r('library(dismo)')
+ro.r('jar <- "C:/maxent/maxent.jar"')
+ro.r('print(file.exists(jar))')
+```
+Expected output:
+```R
+[1] TRUE
+```
+
 ## Contributions and Issues
 
 Feel free to open issues for any bugs or questions. Contributions to improve the analysis or documentation are welcome.
