@@ -61,3 +61,4 @@ data/PseudoAbsences/Triturus_cristatus_pseudo_absences.shx
 /data/PseudoAbsences
 notebooks/cropped_raster.tif
 notebooks/path_to_cropped_raster.tif
+*.tif
