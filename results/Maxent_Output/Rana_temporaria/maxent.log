@@ -1,0 +1,38 @@
+Sun Feb 09 15:19:53 GMT 2025
+MaxEnt version 3.4.3
+Reading file absence
+readGrid: max memory 536870912, total allocated 260046848, free 194496480, used 65550368, increment 22300160
+Reading samples from presence
+Read samples: max memory 536870912, total allocated 260046848, free 125274064, used 134772784, increment 69222416
+Adding samples to background in feature space
+Command line used:  autorun -e C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Rana_temporaria/absence -o C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Rana_temporaria -s C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Rana_temporaria/presence -z autofeature=true randomtestpoints=20
+Command line to repeat: java density.MaxEnt nowarnings noprefixes outputdirectory=C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Rana_temporaria samplesfile=C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Rana_temporaria/presence environmentallayers=C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Rana_temporaria/absence randomtestpoints=20 autorun novisible
+Species: species
+Layers: C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Grass_Stand.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/NDVI_StDev.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/NDVI_median.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Building_Density_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/DistWater_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/NOx_Stand_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/RGS_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Runoff_Coefficient_Standardised_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Slope_Proj_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/SoilMoisture_32bit_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Traffic_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Wood_Resample_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/VegHeight.tif
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+outputdirectory: C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Rana_temporaria
+samplesfile: C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Rana_temporaria/presence
+environmentallayers: C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Rana_temporaria/absence
+randomtestpoints: 20
+autorun: true
+visible: false
+
+getSamples: max memory 536870912, total allocated 260046848, free 116377568, used 143669280, increment 8896496
+Making features
+makeFeatures: max memory 536870912, total allocated 260046848, free 108510032, used 151536816, increment 7867536
+species: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+628 samples
+Density: max memory 536870912, total allocated 260046848, free 218463640, used 41583208, increment -109953608
+linearPredictor: max memory 536870912, total allocated 260046848, free 218463640, used 41583208, increment 0
+FeaturedSpace: max memory 536870912, total allocated 260046848, free 218463640, used 41583208, increment 0
+Sequential: max memory 536870912, total allocated 260046848, free 218463640, used 41583208, increment 0
+Initial loss: 9.099743950634156
+Initial test loss: 9.099743950634156
+Time since start: 18.988
+500: time = 18.095000 loss = 8.256477 testLoss 8.212308
+Resulting gain: 0.8432669503942751
+Projecting...
+Writing file C:\GIS_Course\MScThesis-MaviSantarelli\results\Maxent_Output\Rana_temporaria\species.csv
+Time since start: 22.098
+Ending

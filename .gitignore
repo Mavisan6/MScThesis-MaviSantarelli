@@ -62,3 +62,5 @@ data/PseudoAbsences/Triturus_cristatus_pseudo_absences.shx
 notebooks/cropped_raster.tif
 notebooks/path_to_cropped_raster.tif
 *.tif
+/results/Model_Predictions
+results/bias_layers/Bufo_bufo_bias_layer_resampled.pkl
