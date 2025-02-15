@@ -1,0 +1,31 @@
+﻿EUNIS_CODE,EUNIS_DESC,Suitability Value (1 - 10),,
+,,Bufo bufo,Rana temporaria,Lissotriton helveticus
+C,Water,10,10,10
+D1,Raised and blanket bogs,10,10,10
+D2,"Valley mires, poor fens and transition mires",10,10,10
+D4,Base-rich fens and calcareous spring mires,10,10,10
+E1,Dry grasslands,7,5,5
+E2,Mesic grasslands,7,6,6
+E3,Seasonally wet and wet grasslands,8,8,7
+E4,Alpine and subalpine grasslands,6,9,5
+E5,Woodland fringes and clearings and tall forb stands,6,8,8
+F2,"Arctic, alpine and subalpine scrub",4,8,4
+F3,Temperate and mediterranean-montane scrub,10,10,10
+F4,Temperate shrub heathland,10,10,10
+F9,Riverine and fen scrubs,8,7,8
+G1,Broadleaved deciduous woodland,7,7,8
+G3.F,Highly artificial coniferous plantations,6,5,5
+G4,Mixed deciduous and coniferous woodland,8,8,8
+G5,"Lines of trees, small anthropogenic woodlands, recently felled woodland, early-stage woodland and coppice",9,9,9
+H2,Screes,4,5,4
+H3,"Inland cliffs, rock pavements and outcrops",2,2,2
+I1,Arable land and market gardens,3,4,3
+J,Built-up,2,4,3
+O,Bare land,3,1,1
+OW,Windthrow,8,8,8
+A2.5,Coastal saltmarshes,4,1,1
+B1,Coastal dunes and sandy shores,4,2,2
+B2,Coastal shingle,1,1,1
+B3,"Rock cliffs, ledges and shores",1,1,1
+ , ,,,
+ , ,,,

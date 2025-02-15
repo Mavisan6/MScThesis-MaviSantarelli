@@ -1,0 +1,30 @@
+﻿OID_,VALUE,COUNT,EUNIS_CODE,EUNIS_DESC,LEGEND_TXT
+0,1,726628,C,Water,C: Water
+1,2,2114649,D1,Raised and blanket bogs,D1: Raised and blanket bogs
+2,3,172023,D2,"Valley mires, poor fens and transition mires","D2: Valley mires, poor fens and transition mires"
+3,4,2,D4,Base-rich fens and calcareous spring mires,D4: Base-rich fens and calcareous spring mires
+4,5,4475765,E1,Dry grasslands,E1: Dry grasslands
+5,6,8417790,E2,Mesic grasslands,E2: Mesic grasslands
+6,7,4233277,E3,Seasonally wet and wet grasslands,E3: Seasonally wet and wet grasslands
+7,8,174591,E4,Alpine and subalpine grasslands,E4: Alpine and subalpine grasslands
+8,9,545492,E5,Woodland fringes and clearings and tall forb stands,E5: Woodland fringes and clearings and tall forb stands
+9,10,5105,F2,"Arctic, alpine and subalpine scrub","F2: Arctic, alpine and subalpine scrub"
+10,11,168906,F3,Temperate and mediterranean-montane scrub,F3: Temperate and mediterranean-montane scrub
+11,12,1883365,F4,Temperate shrub heathland,F4: Temperate shrub heathland
+12,13,11238,F9,Riverine and fen scrubs,F9: Riverine and fen scrubs
+13,14,3528308,G1,Broadleaved deciduous woodland,G1: Broadleaved deciduous woodland
+14,16,2946652,G3.F,Highly artificial coniferous plantations,G3.F: Highly artificial coniferous plantations
+15,17,317617,G4,Mixed deciduous and coniferous woodland,G4: Mixed deciduous and coniferous woodland
+16,18,1069920,G5,"Lines of trees, small anthropogenic woodlands, recently felled woodland, early-stage woodland and coppice","G5: Lines of trees, small anthropogenic woodlands, recently felled woodland, early-stage woodland and coppice"
+17,19,10482,H2,Screes,H2: Screes
+18,20,22948,H3,"Inland cliffs, rock pavements and outcrops","H3: Inland cliffs, rock pavements and outcrops"
+19,21,2789696,I1,Arable land and market gardens,I1: Arable land and market gardens
+20,22,2646769,J,Built-up,J: Built-up
+21,23,724424,O,Bare land,O: Bare land
+22,24,152256,OW,Windthrow,OW: Windthrow
+23,25,32270,A2.5,Coastal saltmarshes,A2: Littoral sediment (predominantly saltmarsh)
+24,26,47372,B1,Coastal dunes and sandy shores,B1: Coastal dunes and sandy shores
+25,27,3700,B2,Coastal shingle,B2: Coastal shingle
+26,28,34432,B3,"Rock cliffs, ledges and shores","B3: Rock cliffs, ledges and shores"
+27,-32768,6686, , , 
+28,0,21, , , 
