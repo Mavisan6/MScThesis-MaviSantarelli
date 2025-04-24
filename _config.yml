@@ -1,7 +1,8 @@
 title: MSc Thesis – Amphibians & BGI
-theme: jekyll-theme-slate
-url: https://mavisan6.github.io
-baseurl: /MScThesis-MaviSantarelli
+theme: just-the-docs
+
+url: "https://mavisan6.github.io"
+baseurl: "/MScThesis-MaviSantarelli"
 
 nav:
   - title: "Home (GitHub Repo)"
