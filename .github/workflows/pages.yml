@@ -3,19 +3,20 @@ name: Build and Deploy GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # Triggers the workflow on pushes to the main branch
 
 permissions:
-  contents: write
+  contents: write  # Needed for deploying to gh-pages branch
 
 jobs:
   jekyll:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup Ruby
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
@@ -33,3 +34,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+          publish_branch: gh-pages
