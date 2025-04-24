@@ -1,0 +1,4 @@
+AUC-ROC Std Dev: 0.0094
+Precision Std Dev: 0.0173
+Recall Std Dev: 0.0169
+F1 Score Std Dev: 0.0129

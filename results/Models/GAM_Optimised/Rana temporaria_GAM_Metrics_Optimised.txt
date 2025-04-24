@@ -1,0 +1,16 @@
+AUC-ROC: 0.837
+Optimal Threshold: 0.731
+Precision: 0.433
+Recall: 0.466
+F1 Score: 0.449
+Confusion Matrix:
+[[3379  199]
+ [ 174  152]]
+              precision    recall  f1-score   support
+
+           0       0.95      0.94      0.95      3578
+           1       0.43      0.47      0.45       326
+
+    accuracy                           0.90      3904
+   macro avg       0.69      0.71      0.70      3904
+weighted avg       0.91      0.90      0.91      3904

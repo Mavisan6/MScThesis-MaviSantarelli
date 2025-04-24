@@ -1,0 +1,14 @@
+Predictor variable,Categorical,Sample average
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Grass_Stand.tif,false,0.4008103967882161
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/NDVI_StDev.tif,false,0.30890532722611447
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/NDVI_median.tif,false,0.7511581896656054
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Building_Density_Reversed.tif,false,0.9398430877866243
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/DistWater_Reversed.tif,false,0.9093251668789819
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/NOx_Stand_Reversed.tif,false,0.8600172927388533
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/RGS_Reversed.tif,false,0.8858542891003178
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Runoff_Coefficient_Standardised_Reversed.tif,false,0.5098504994649647
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Slope_Proj_Reversed.tif,false,0.9157564052707001
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/SoilMoisture_32bit_Reversed.tif,false,0.30635109782802566
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Traffic_Reversed.tif,false,0.7646535668623469
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Wood_Resample_Reversed.tif,false,0.9789724766242038
+C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/VegHeight.tif,false,0.23612248781146483

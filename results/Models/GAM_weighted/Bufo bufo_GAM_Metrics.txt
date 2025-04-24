@@ -1,0 +1,17 @@
+AUC-ROC: 0.796
+Precision: 0.513
+Recall: 0.142
+F1 Score: 0.222
+Confusion Matrix:
+[[1167   19]
+ [ 121   20]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94      1186
+           1       0.51      0.14      0.22       141
+
+    accuracy                           0.89      1327
+   macro avg       0.71      0.56      0.58      1327
+weighted avg       0.86      0.89      0.87      1327
+

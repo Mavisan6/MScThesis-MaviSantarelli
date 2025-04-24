@@ -1,0 +1,37 @@
+Sun Feb 09 15:22:48 GMT 2025
+MaxEnt version 3.4.3
+Reading file absence
+readGrid: max memory 536870912, total allocated 260046848, free 206255744, used 53791104, increment 12207896
+Reading samples from presence
+Read samples: max memory 536870912, total allocated 260046848, free 187381376, used 72665472, increment 18874368
+Adding samples to background in feature space
+Command line used:  autorun -e C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Lissotriton_helveticus/absence -o C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Lissotriton_helveticus -s C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Lissotriton_helveticus/presence -z autofeature=true randomtestpoints=20
+Command line to repeat: java density.MaxEnt nowarnings noprefixes outputdirectory=C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Lissotriton_helveticus samplesfile=C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Lissotriton_helveticus/presence environmentallayers=C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Lissotriton_helveticus/absence randomtestpoints=20 autorun novisible
+Species: species
+Layers: C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Grass_Stand.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/NDVI_StDev.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/NDVI_median.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Building_Density_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/DistWater_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/NOx_Stand_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/RGS_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Runoff_Coefficient_Standardised_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Slope_Proj_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/SoilMoisture_32bit_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Traffic_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/Reversed/Wood_Resample_Reversed.tif C:/GIS_Course/MScThesis-MaviSantarelli/data/Predictors/Input/VegHeight.tif
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+outputdirectory: C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Lissotriton_helveticus
+samplesfile: C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Lissotriton_helveticus/presence
+environmentallayers: C:/GIS_Course/MScThesis-MaviSantarelli/results/Maxent_Output/Lissotriton_helveticus/absence
+randomtestpoints: 20
+autorun: true
+visible: false
+
+getSamples: max memory 536870912, total allocated 260046848, free 184759936, used 75286912, increment 2621440
+Making features
+makeFeatures: max memory 536870912, total allocated 260046848, free 182903280, used 77143568, increment 1856656
+species: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+173 samples
+Density: max memory 536870912, total allocated 260046848, free 175847040, used 84199808, increment 7056240
+linearPredictor: max memory 536870912, total allocated 260046848, free 175847040, used 84199808, increment 0
+FeaturedSpace: max memory 536870912, total allocated 260046848, free 175847040, used 84199808, increment 0
+Sequential: max memory 536870912, total allocated 260046848, free 175847040, used 84199808, increment 0
+Initial loss: 7.784473235736469
+Initial test loss: 7.784473235736469
+Time since start: 1.863
+500: time = 1.722000 loss = 7.025252 testLoss 7.454364
+Resulting gain: 0.7592216661468241
+Projecting...
+Writing file C:\GIS_Course\MScThesis-MaviSantarelli\results\Maxent_Output\Lissotriton_helveticus\species.csv
+Ending
