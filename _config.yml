@@ -35,4 +35,16 @@ nav:
   - title: "Introduction to Connectivity Mapping"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/3_Connectivity%20Modelling/0_Intro_Connectivity_Mapping.ipynb
   - title: "Resistance Mapping"
-    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/
+    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/3_Connectivity%20Modelling/1_Resistance_Mapping.ipynb
+  - title: "Alternative Resistances (Methods for Future Research)"
+    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/3_Connectivity%20Modelling/2_Alternative_Resistances.ipynb
+  - title: "Connectivity Mapping"
+    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/3_Connectivity%20Modelling/3_Connectivity_Mapping.ipynb
+  - title: "Preliminary Analysis: Defining Corridors"
+    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/4_Overlay%20Analysis/0_Preliminary.ipynb
+  - title: "Overlay Analysis: Inverse Scaling"
+    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/4_Overlay%20Analysis/1_InverseScaling.ipynb
+  - title: "Overlay Analysis: Categorical Scaling"
+    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/4_Overlay%20Analysis/2_CategoricalScaling.ipynb
+  - title: "Overlay Analysis: Exponential Scaling"
+    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/4_Overlay%20Analysis/3_ExponentialScaling.ipynb
