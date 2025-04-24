@@ -4,47 +4,35 @@ url: https://mavisan6.github.io
 baseurl: /MScThesis-MaviSantarelli
 
 nav:
-  - title: Home (GitHub Repo)
+  - title: "Home (GitHub Repo)"
     url: https://github.com/Mavisan6/MScThesis-MaviSantarelli
-  - title: Species Selection
+  - title: "Species Selection"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/0_Preliminary%20Analysis/0_Species_Selection.ipynb
-  - title: Species Occurrence & Pseudo-Absences
+  - title: "Species Occurrence & Pseudo-Absences"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/1_Datasets/1_Data_SpeciesOccurrance.ipynb
-  - title: Environmental Predictors
+  - title: "Environmental Predictors"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/1_Datasets/2_Predictors_Methods.ipynb
-  - title: Predictors Processing
+  - title: "Predictors Processing"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/1_Datasets/3_Predictors_Processing.ipynb
-  - title: Multicollinearity Checks
+  - title: "Multicollinearity Checks"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/1_Datasets/4_MulticollinearityChecks.ipynb
-  - title: Setup Overview
+  - title: "Setup Overview"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/2_Ensemble%20Modelling/0_Setting_Up_Overview.ipynb
-  - title: Model Training SetUp
+  - title: "Model Training SetUp"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/2_Ensemble%20Modelling/1_Model_Training_Set_Up.ipynb
-  - title: Data Partitioning
+  - title: "Data Partitioning"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/2_Ensemble%20Modelling/2_Model_Training_Set_Up.ipynb
-  - title: Model Training
+  - title: "Model Training"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/2_Ensemble%20Modelling/3_Model_Training.ipynb
-  - title: Model Comparison
+  - title: "Model Comparison"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/2_Ensemble%20Modelling/4_Model_Comparison.ipynb
-  - title: Ensemble Modelling
+  - title: "Ensemble Modelling"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/2_Ensemble%20Modelling/5_Ensemble_Modelling.ipynb
-  - title: Spatial Modelling
+  - title: "Spatial Modelling"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/2_Ensemble%20Modelling/6_Spatial_Mapping.ipynb
-  - title: Oversampling Fix (Methods for Future Research)
+  - title: "Oversampling Fix (Methods for Future Research)"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/2_Ensemble%20Modelling/7_Oversampling_Fix.ipynb
-  - title: Introduction to Connectivity Mapping
+  - title: "Introduction to Connectivity Mapping"
     url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/3_Connectivity%20Modelling/0_Intro_Connectivity_Mapping.ipynb
-  - title: Resistance Mapping
-    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/3_Connectivity%20Modelling/1_Resistance_Mapping.ipynb
-  - title: Alternative Resistances (Methods for Future Research)
-    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/3_Connectivity%20Modelling/2_Alternative_Resistances.ipynb
-  - title: Connectivity Mapping
-    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/3_Connectivity%20Modelling/3_Connectivity_Mapping.ipynb
-  - title: Preliminary Analysis: Defining Corridors
-    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/4_Overlay%20Analysis/0_Preliminary.ipynb
-  - title: Overlay Analysis: Inverse Scaling
-    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/4_Overlay%20Analysis/1_InverseScaling.ipynb
-  - title: Overlay Analysis: Categorical Scaling
-    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/4_Overlay%20Analysis/2_CategoricalScaling.ipynb
-  - title: Overlay Analysis: Exponential Scaling
-    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/4_Overlay%20Analysis/3_ExponentialScaling.ipynb
+  - title: "Resistance Mapping"
+    url: https://nbviewer.org/github/Mavisan6/MScThesis-MaviSantarelli/blob/main/notebooks/
